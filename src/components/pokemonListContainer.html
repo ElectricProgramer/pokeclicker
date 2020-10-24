@@ -53,7 +53,7 @@
                 </tr>
             </thead>
             <tbody data-bind="foreach: PartyController.getSortedList()">
-                <tr>
+                <tr data-bind="hidden: $data.breeding">
                     <td>
                         <img
                             class="smallImage"
